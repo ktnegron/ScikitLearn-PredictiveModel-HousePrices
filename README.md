@@ -1,2 +1,2 @@
 # Scikit-learn to Predict House Prices
-Building a linear regression model using scikit-learn's ``` Pipeline ``` with ``` StandardScaler ``` and ``` LinearRegression ```
+Building a linear regression model using scikit-learn's ``` Pipeline ``` with ``` StandardScaler ```, ``` LinearRegression ```, and ```Ridge``` predictor. However, some features have a non-linear behavior and some basic feature engineering is done by creating new features that encode the interactions we're interested in. We can use the values given by the product of each pair of features which is exactly what scikit-learn's ``` PolynomialFeatures``` does. We will use this transformer to generate the second degree versions of each of the features.
